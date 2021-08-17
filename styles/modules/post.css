@@ -1,0 +1,30 @@
+.post{
+  &__title{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color:$blue1;
+    padding-top:2rem;
+    @mixin atLarge{
+      font-size: 3rem;
+    }
+  }
+
+  &__date{
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  &__content{
+    width:90%;
+    left:5%;
+    position: relative;
+    margin-top: 2rem;
+
+    @mixin atLarge{
+      width:70%;
+      left:15%;
+      margin-top:4rem;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.dash{
+
+
+  &--level{
+    margin-bottom:3rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+
+    &__dough{
+      width:60vw;
+
+      @mixin atSmall{
+        width:40vw;
+      }
+
+      @mixin atMedium{
+        width:30vw;
+      }
+
+      @mixin atLarge{
+        width:20vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.btn{
+
+  width:3rem;
+  height:2rem;
+  border-radius: 0.5rem;
+  cursor:pointer;
+
+  &__hard{
+    background-color: red;
+  }
+
+  &__okay{
+    background-color: green;
+  }
+
+  &__easy{
+    background-color: blue;
+  }
+
+  &--large{
+    width:10rem;
+  }
+
+  &--shadow{
+    box-shadow: 0 3px 3px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+}

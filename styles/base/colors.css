@@ -1,0 +1,159 @@
+.grey1-bg{
+  background-color:$grey1;
+}
+
+.calcColor-bg{
+  background-color:$calcColor;
+}
+
+.tactColor-bg{
+  background-color:$tactColor;
+}
+
+.openColor-bg{
+  background-color:$openColor;
+}
+
+.middleColor-bg{
+  background-color:$middleColor;
+}
+
+.endColor-bg{
+  background-color:$endColor;
+}
+
+.loginColor-bg{
+  background-color:$loginColor;
+}
+
+.calcColor{
+  color:$calcColor;
+}
+
+.tactColor{
+  color:$tactColor;
+}
+
+.openColor{
+  color:$openColor;
+}
+
+.middleColor{
+  color:$middleColor;
+}
+
+.endColor{
+  color:$endColor;
+}
+
+.loginColor{
+  color:$loginColor;
+}
+
+.calcColor-bord{
+  border-color:$calcColor;
+}
+
+.tactColor-bord{
+  border-color:$tactColor;
+}
+
+.openColor-bord{
+  border-color:$openColor;
+}
+
+.middleColor-bord{
+  border-color:$middleColor;
+}
+
+.endColor-bord{
+  border-color:$endColor;
+}
+
+.loginColor-bord{
+  border-color:$loginColor;
+}
+
+.calcColor-hover{
+  &:hover{
+    color:$calcColor;
+  }
+}
+
+.openColor-hover{
+  &:hover{
+    color:$openColor;
+  }
+}
+
+.middleColor-hover{
+  &:hover{
+    color:$middleColor;
+  }
+}
+
+.endColor-hover{
+  &:hover{
+    color:$endColor;
+  }
+}
+
+.tactColor-hover{
+  &:hover{
+    color:$tactColor;
+  }
+}
+
+.loginColor-hover{
+  &:hover{
+    color:$loginColor;
+  }
+}
+
+.reviewColor-hover{
+  &:hover{
+    color:$reviewColor;
+  }
+}
+
+.calcColor-bord-hover{
+  &:hover{
+  border-color:$calcColor;
+}
+}
+
+.tactColor-bord-hover{
+  &:hover{
+  border-color:$tactColor;
+}
+}
+
+.openColor-bord-hover{
+  &:hover{
+  border-color:$openColor;
+}
+}
+
+.middleColor-bord-hover{
+  &:hover{
+  border-color:$middleColor;
+}
+}
+
+.endColor-bord-hover{
+  &:hover{
+  border-color:$endColor;
+}
+}
+
+.loginColor-bord-hover{
+  &:hover{
+  border-color:$loginColor;
+}
+}
+
+.reviewColor-bord-hover{
+  &:hover{
+  border-color:$reviewColor;
+}
+}

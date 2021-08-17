@@ -1,0 +1,35 @@
+.blog{
+
+  &__title{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    color:$blue1;
+    padding-top:2rem;
+  }
+
+  &__list{
+    width:90%;
+    left:5%;
+    position:relative;
+    @mixin atLarge{
+      width:70%;
+      left:15%;
+    }
+
+    &--item{
+      margin-top:2rem;
+      margin-bottom:2rem;
+    }
+  }
+
+  &__link{
+    color:$grey3;
+    font-size:1.8rem;
+  }
+
+  &__date{
+
+  }
+}

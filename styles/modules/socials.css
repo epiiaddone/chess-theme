@@ -1,0 +1,42 @@
+.socials{
+
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
+  
+  @mixin atSmall{
+    flex-direction:row;
+  }
+
+&__section{
+  margin-top:30px;
+
+  &--twitter{
+
+      img{
+        height:80px;
+        cursor:pointer;
+      }
+  }
+
+  &--patreon{
+
+      img{
+        height:100px;
+        cursor:pointer;
+      }
+
+  }
+
+  &--youtube{
+
+      img{
+        height:60px;
+        cursor:pointer;
+      }
+
+  }
+}
+
+}

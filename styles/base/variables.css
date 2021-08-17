@@ -1,0 +1,35 @@
+$grey1: #ebebeb;
+$grey2: #5f6368;
+$grey3: #999;
+
+$white1: #fafafa;
+
+$activeColor: #d4f7ab;
+
+$blue1:#2c97de;
+
+$hardColor:#e35f44;
+$okayColor:#44e3b6;
+$easyColor:#5ce344;
+
+$openColor: blue;
+$middleColor: orange;
+$endColor: red;
+$tactColor: wheat;
+$calcColor: yellow;
+
+$loginColor: green;
+$reviewColor:pink;
+
+$actionHeroColor: brown;
+
+
+$headerHeight: 50px;
+$headerHeightSmall: 50px;
+$headerHeightMedium:60px;
+$headerHeightLarge:60px;
+
+$footerHeight: 50px;
+$footerHeightSmall: 40px;
+$footerHeightMedium:40px;
+$footerHeightLarge:40px;

@@ -1,0 +1,43 @@
+.action-hero{
+  margin-top:1rem;
+  margin-bottom:1rem;
+  cursor:pointer;
+  background-color: $actionHeroColor;
+  margin-left: auto;
+  margin-right:auto;
+font-weight: normal;
+text-align: center;
+touch-action: manipulation;
+box-shadow: 0 3px 3px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+border-radius: 5px;
+padding: 6px 12px;
+opacity: .7;
+display:flex;
+justify-content: space-between;
+align-items: center;
+
+width:70%;
+
+@mixin atSmall{
+  width:50%;
+}
+
+@mixin atMedium{
+ width:30%;
+}
+
+@mixin atLarge{
+
+}
+
+  &__title{
+    font-size:1.5rem;
+    color:white;
+  }
+
+  &__subtitle{
+    font-size:1rem;
+    color:white;
+  }
+
+}

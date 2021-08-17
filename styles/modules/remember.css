@@ -1,0 +1,39 @@
+.remember{
+
+
+  .rpbui-chessgame-result{
+    display:none;
+    opacity:0;
+  }
+
+  .rpbui-chessgame-navigationButtonFirst{
+    display:none;
+  }
+
+  .rpbui-chessgame-navigationButtonPrevious{
+    display:none;
+  }
+
+  .rpbui-chessgame-navigationButtonLast{
+    display:none;
+  }
+
+  #startButton{
+    display:none;
+  }
+
+  #whatNext{
+    display:none;
+  }
+
+  .rpbui-chessgame-move{
+    display:none;
+  }
+
+  .rpbui-chessgame-scrollArea{
+    min-width:40%;
+  }
+
+
+
+}

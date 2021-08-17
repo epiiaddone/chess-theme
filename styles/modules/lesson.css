@@ -1,0 +1,24 @@
+.lesson{
+
+&--wrapper{
+  position:relative;
+  left:5%;
+  width:90%;
+}
+
+  &--hidden{
+    display:none;
+  }
+
+  &--button-container{
+    display:flex;
+    flex-direction:column;
+    margin-top: 4rem;
+    align-items: center;
+
+    @mixin atLarge{
+      flex-direction:row;
+      justify-content: space-evenly;
+    }
+  }
+}

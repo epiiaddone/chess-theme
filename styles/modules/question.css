@@ -1,0 +1,42 @@
+.question{
+
+  width: 90%;
+position: relative;
+left: 5%;
+
+&--link{
+  width:100%;
+  text-align: center;
+margin-top:2rem;
+
+  a{
+    text-decoration: underline;
+    color:$grey3;
+    font-size:1.2rem;
+  }
+}
+
+
+  .rpbchessboard-chessboard{
+
+  }
+
+.rpbui-chessgame{
+  display:none;
+}
+
+&--buttons{
+  display: none;
+      justify-content: space-evenly;
+      width: 100%;
+}
+
+&--hidden{
+  display:none;
+}
+
+h1{
+  text-align: center;
+}
+
+}

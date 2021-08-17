@@ -1,0 +1,49 @@
+.nav-path{
+
+  text-transform:capitalize;
+  padding-top: 1rem;
+margin-left: 2.5%;
+width: 95%;
+margin-bottom:2rem;
+
+  &--title{
+    fontsize:1.5rem;
+    color:$blue1;
+
+    @mixin atSmall{
+      font-size:2rem;
+    }
+
+    @mixin atMedium{
+      font-size:2.5rem;
+    }
+
+  }
+
+  &__link{
+    font-size: 1rem;
+    margin-bottom:0.5rem;
+
+    @mixin atLarge{
+      font-size:1.5rem;
+    }
+
+    a{
+      color:$grey3;
+    }
+  }
+
+  &__linkBox{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    color:$grey3;
+    flex-wrap:wrap;
+
+    &--divider{
+      margin-left:0.5rem;
+      margin-right:0.5rem;
+      margin-bottom:0.5rem;
+    }
+  }
+}

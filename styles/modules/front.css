@@ -1,0 +1,129 @@
+.front{
+
+
+
+&__goal{
+  color:$blue1;
+}
+
+  &__banner{
+
+    background-color: white;
+    padding-bottom:5rem;
+
+    &--1{
+      font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3rem;
+color:$grey2;
+
+    &__emp{
+      font-size:6rem;
+      color:$blue1;
+    }
+    }
+
+    &--2{
+    color:$grey2;
+padding-top: 2rem;
+width: 80%;
+left: 10%;
+position: relative;
+font-size: 1.2rem;
+text-align: center;
+    }
+
+  }
+
+  &__countdown{
+
+    text-align: center;
+    padding-top:5rem;
+    padding-bottom:5rem;
+
+    &--number{
+color:$blue1;
+font-size:2.5rem;
+margin-left: 0.9rem;
+font-weight:bold;
+    }
+
+    &--text{
+      font-size: 1.3rem;
+          color:$grey2;
+    }
+
+    &--subtext{
+      width: 80%;
+      left: 10%;
+      position: relative;
+      text-align: center;
+      font-size: 1.2rem;
+      color: $grey2;
+      padding-top: 2rem;
+    }
+  }
+
+  &__section{
+    background-color:white;
+    padding-top: 5rem;
+    padding-bottom:5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.2rem;
+    color: $grey2;
+
+    .rpbui-chessgame-result{
+      display:none;
+      opacity:0;
+    }
+
+    &--link{
+      color:blue;
+      cursor:pointer;
+    }
+
+    &--gray{
+      background-color: $grey1;
+    }
+
+    &--chart{
+      padding-left:0;
+      padding-right:0;
+    }
+
+    &--title{
+      text-align: center;
+color: black;
+font-size: 2rem;
+padding-bottom: 2rem;
+    }
+  }
+
+
+  &__chart{
+
+
+    &--container{
+      position:relative;
+      margin-left:auto;
+      margin-right:auto;
+      width:360px;
+
+      @mixin atMedium{
+        width:700px;
+      }
+
+      @mixin atLarge{
+        width:1000px;
+      }
+
+
+    }
+}
+
+
+
+
+}

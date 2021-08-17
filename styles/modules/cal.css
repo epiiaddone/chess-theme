@@ -1,0 +1,29 @@
+.cal{
+
+&-dough{
+
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+
+  &__cont{
+    width:60vw;
+
+    @mixin atSmall{
+      width:40vw;
+    }
+
+    @mixin atMedium{
+      width:30vw;
+    }
+
+    @mixin atLarge{
+      width:20vw;
+    }
+  }
+}
+
+
+
+
+}

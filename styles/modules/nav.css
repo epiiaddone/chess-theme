@@ -1,0 +1,51 @@
+.nav{
+
+  &--levels{
+    display:none;
+
+    &__show{
+      display:block;
+    }
+
+  }
+
+
+
+  &--login{
+    display:flex;
+    justify-content: flex-end;
+    margin:0px;
+    margin-right: 0.5rem;
+    padding: 0;
+
+    &__button{
+      list-style: none;
+      cursor:pointer;
+      padding:0.5rem;
+      color:$blue1;
+      border-width:2px;
+      border-style:solid;
+      border-color:transparent;
+      border-radius:5px;
+      text-transform:capitalize;
+
+      &--review{
+        min-width:94px;
+      }
+
+      &--toggle{
+        color:inherit;
+      }
+
+      a{
+        text-decoration:none;
+        color:inherit;
+      }
+
+    }
+
+  }
+
+
+
+}

@@ -1,0 +1,104 @@
+.container{
+  background-color:$white1;
+  width:95%;
+  margin-left:2.5%;
+  margin-bottom:2.5%;
+  margin-top:2.5%;
+
+  &--subtitle{
+    text-align: center;
+    padding-top:0.6rem;
+    padding-bottom:0.6rem;
+    font-size:1.2rem;
+  }
+
+  &--title{
+    font-size:1.5rem;
+    color:$blue1;
+    text-align: center;
+    padding-top:0.6rem;
+    padding-bottom:0.6rem;
+    text-transform:capitalize;
+    font-weight:bold;
+
+    @mixin atSmall{
+      padding-top:0.6rem;
+      padding-bottom:0.6rem;
+    }
+
+    @mixin atMedium{
+      font-size:2rem;
+
+    }
+  }
+
+  &--buttons{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction:column;
+    align-items: center;
+
+    @mixin atMedium{
+      flex-direction:row;
+    }
+  }
+
+  &--confirm{
+    justify-content: center;
+    align-items: center;
+
+    &__content{
+      margin:6px;
+    }
+  }
+
+
+  &--btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background: $grey1;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius:5px;
+    padding: 6px 12px;
+    color:black;
+    opacity:.8;
+    margin-bottom:1rem;
+    margin-top:1rem;
+    width:50%;
+
+    @mixin atMedium{
+      width:20%;
+    }
+
+    &__center{
+      display:flex;
+      justify-content:center;
+    }
+
+    &__hard{
+      background-color:$hardColor;
+    }
+
+    &__okay{
+background-color:$okayColor;
+    }
+
+    &__easy{
+background-color:$easyColor;
+    }
+
+    &__long{
+      width:200px;
+    }
+  }
+  &--btn:hover{
+    color:black;
+    opacity:1;
+  }
+
+}

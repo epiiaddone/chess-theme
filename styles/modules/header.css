@@ -1,0 +1,39 @@
+.header{
+  left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+
+  background:$white1;
+    border-bottom: 1px solid #d5d5d5;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    &--content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+      height:$headerHeight;
+
+      @mixin atMedium{
+        height:$headerHeightMedium;
+      }
+    }
+
+    &--logo{
+      font-family: 'Anton', sans-serif;
+      margin-left:1rem;
+
+      @mixin atMedium{
+        font-size:1.5rem;
+      }
+
+      a{
+        text-decoration:none;
+        color:black;
+      }
+    }
+}

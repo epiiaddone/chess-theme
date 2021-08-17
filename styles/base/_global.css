@@ -1,0 +1,38 @@
+
+div{
+  max-width:100vw;
+}
+
+#page{
+  max-width:100vw;
+}
+
+#content{
+  max-width:100vw;
+  min-height:calc(100vh - $headerHeight - $footerHeight);
+  margin-top:$headerHeight;
+  font-size:1.1rem;
+
+  @mixin atSmall{
+    min-height:calc(100vh - $headerHeightSmall - $footerHeightSmall);
+    margin-top:$headerHeightSmall;
+  }
+
+  @mixin atMedium{
+    min-height:calc(100vh - $headerHeightMedium - $footerHeightMedium);
+    margin-top:$headerHeightMedium;
+  }
+
+  @mixin atLarge{
+    min-height:calc(100vh - $headerHeightLarge - $footerHeightLarge);
+    margin-top:$headerHeightLarge;
+  }
+}
+
+.hidden{
+  display:none;
+}
+
+.rpbui-chessgame-result{
+  display:none;
+}
